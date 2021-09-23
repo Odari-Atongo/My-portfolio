@@ -28,6 +28,7 @@ li a {
   display: block;
   text-decoration: none;
   color: white;
+  font-weight: 200;
   text-align: center;
   padding: 14px 16px;
 }
@@ -46,7 +47,8 @@ li a {
 .main {
   display: flex;
   width: 100%;
-  height: 100vh;
+  margin-bottom: 2em;
+  padding: 1em 0;
 }
 .my-photo {
   width: 30rem;
@@ -57,10 +59,20 @@ li a {
   text-align: center;
 }
 .about p {
-  line-height: 4rem;
+  line-height: 3rem;
   font-size: 2rem;
 }
 .about {
-  margin-top: 2rem;
-  padding: 30px;
+  margin-top: 2rem 0rem;
+  padding: 50px;
+}
+/* aside content with skills section */
+aside #skills {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2em;
+}
+h2 {
+  text-align: center;
 }
