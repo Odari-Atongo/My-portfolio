@@ -67,10 +67,9 @@ li a {
   padding: 50px;
 }
 /* aside content with skills section */
-aside #skills {
+#skills {
   display: flex;
   width: 100%;
-  height: auto;
   margin-bottom: 2em;
 }
 h2 {
