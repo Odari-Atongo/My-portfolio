@@ -68,10 +68,45 @@ li a {
 }
 /* aside content with skills section */
 #skills {
-  display: flex;
   width: 100%;
   margin-bottom: 2em;
+  font-size: 25px;
 }
+.icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 h2 {
   text-align: center;
+}
+/*Project section */
+.project-image {
+  height: 25rem;
+  width: 25rem;
+}
+/*  The footer containing the socials*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* socials' icons container*/
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 10px;
+}
+.social p {
+  margin-left: 5px;
 }
