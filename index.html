@@ -9,23 +9,36 @@
     <title>Portfolio Website</title>
 </head>
 <body>
+    <!-- The navigation bar  -->
     <header>
-        <p class="logo">Odari</p>   
-        <ul>
-            <li class="nav-links"><a href="#home">Home</a></li>
-            <li class="nav-links"><a href="#about">About</a></li>
-            <li class="nav-links"><a href="#skills">Skills</a></li>
-            <li class="nav-links"><a href="#projects">Projects</a></li>
-            <li class="nav-links"><a href="#contact">Contact</a></li>
-          </ul>
+        <nav id="navbar">
+            <ul id="nav-container">
+                <li class="nav-links"><a href="#home">Home</a></li>
+                <li class="nav-links"><a href="#about">About</a></li>
+                <li class="nav-links"><a href="#skills">Skills</a></li>
+                <li class="nav-links"><a href="#projects">Projects</a></li> 
+                <li class="nav-links"><a href="#contact">Contact</a></li>
+              </ul>
+        </nav>
     </header>
-        <div id="home" class="welcome">
-            <h1>Hi I am Derrick Odari</h1>
-            <p>Welcome to my webpage</p>
+    <section id="welcome-section" class= 'container'>
+        <div class="title">
+          <h1>Welcome  to my site, <br>I create great digital experience</h1>
+        <p>
+        The internet is quite a fun place to be , <br>I try maintaining the same while making my projects.
+        </p>
+        <div class="btns">
+        <button class='btns_more'> See more </button>
+        </div>
     </div>
+        <div class="img-inner">
+         <img src="img/Odari.jpg" alt="My portrait image" class="container_img"/>
+               </div>
+            </section>
+        <!-- <div class="overlay"></div> -->
     <div id="about" class="main">
         <div>
-            <img class="my-photo" src="img/Odari.jpg" alt="My photo">
+            <img class="my-photo" src="./img/Odari.jpg" alt="My photo">
         </div>
         <div class="about">
             <h1>About Me</h1>
@@ -40,7 +53,7 @@
             <div class="icon-container">
                 <i class="fab fa-html5 fa-8x "></i>
                 <p>Htm5l</p>
-            </div>
+            </div> 
           <div class="icon-container">
             <i class="fab fa-css3 fa-8x"></i>
             <p>CSS3</p>
@@ -54,28 +67,12 @@
     </div>
      <div id="projects">
         <h2>My projects</h2> 
-        <div class="container">
-            <a
-      href="https://odari-d.github.io/chris-brown-tribute-page/"
-      target="_blank"
-      class="project project-tile"
-    >
-      <img
-        class="project-image"
-        src="img/tribute.png"
-        alt="project"
-      />
-      <p class="project-title">
-        Tribute Page
-      </p>
-    </a>
-
-        </div>
+     
      </div>
     <footer id="contact">
         <h2>Contact me:</h2>
         <div class="social">
-        <a href="https://github.com/Odari-D" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+        <a id="profile-link" href="https://github.com/Odari-D" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
         <p>Github</p>
         </div>
         <div class="social">
@@ -85,9 +82,9 @@
         <div class="social">
             <a href="https://twitter.com/DerrickAtongo" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
             <p>Twitter</p>
-        </div>
+        </div> -->
 
-    </footer>
-    
+    <!-- </footer>  -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>

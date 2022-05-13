@@ -1,112 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
+  font-family: 'Hind', sans-serif;
+  /* background-color: var(--secondary-color); */
+
 }
-/*navigation bar*/
-header {
-  display: flex;
-  width: 100%;
-  height: 3rem;
-  align-items: center;
-  justify-content: space-between;
+:root {
+  --secondary-color: #151226;
+  --contrast-color: #64523f;
+}
+/* The navigation bar  */
+#navbar{
   position: fixed;
-  z-index: 10;
-  color: white;
-  background-color: black;
-}
-.logo {
-  margin-left: 20px;
-}
-ul {
+  z-index: 1;
+  background-color:var(--contrast-color);
+  width: 100%;
+  height: 10%;
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: flex-end;
+  opacity: 0.5;
+
+}
+/* The nav-elements  */
+#nav-container{
+  display: flex;
   list-style: none;
 }
-li a {
-  display: block;
+/* The nav-links  */
+.nav-links a{
   text-decoration: none;
-  color: white;
-  font-weight: 200;
-  text-align: center;
-  padding: 14px 16px;
+  margin: 2em;
+  color: #fff;
 }
-/*welcoming page*/
-#home {
-  display: flex;
-  flex-direction: column;
-  font-weight: 5em;
-  font-size: 5em;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+.nav-links a:hover{
+  background-color:var(--secondary-color);
+  padding: 1.5em;
+  color: #fff;
+
+}
+/* The welcome section  */
+#welcome-section{
   height: 100vh;
-}
-/*main content with image and about myself*/
-.main {
   display: flex;
-  width: 100%;
-  margin-bottom: 2em;
-  padding: 1em 0;
-}
-.my-photo {
-  width: 30rem;
-  border-radius: 10rem 15rem 10rem 15rem;
-  margin: 2rem;
-}
-.about h1 {
-  text-align: center;
-}
-.about p {
-  line-height: 3rem;
-  font-size: 2rem;
-}
-.about {
-  margin-top: 2rem 0rem;
-  padding: 50px;
-}
-/* aside content with skills section */
-#skills {
-  width: 100%;
-  margin-bottom: 2em;
-  font-size: 25px;
-}
-.icons {
-  display: flex;
-  justify-content: space-around;
-  padding: 50px;
-}
-.icon-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
-h2 {
-  text-align: center;
-}
-/*Project section */
-.project-image {
-  height: 25rem;
-  width: 25rem;
-}
-/*  The footer containing the socials*/
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-/* socials' icons container*/
-.social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  margin: 10px;
-}
-.social p {
-  margin-left: 5px;
-}
